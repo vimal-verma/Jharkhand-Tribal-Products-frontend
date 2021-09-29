@@ -9,10 +9,10 @@ export default function Footer() {
           <Link to="/" tag={Link} className="logo">
             <img src={logo} alt="logo" />
           </Link>
-          <p>17, Bannerghatta</p>
-          <p>Main Rd, Dollars Colony,</p>
-          <p>Jaunpur, Uttar Pradesh</p>
-          <p>222001, India</p>
+          <p>IIIT Ranchi</p>
+          <p>JUT, Science and Technology Campus, Namkum</p>
+          <p>Ranchi, Jharkhand</p>
+          <p>834010, India</p>
         </div>
         {/* <div>
                 <h3>RESOURCES</h3>
@@ -62,16 +62,16 @@ export default function Footer() {
         <div>
           <h3>CONNECT WITH US</h3>
           <div className="social">
-            <a href="https://github.com/start-Dropship">
+            <a href="https://github.com/vimal-verma">
               <span className="fa fa-github"></span>
             </a>
-            <a href="https://twitter.com/start-Dropship">
+            <a href="https://twitter.com/vimalverma_in">
               <span className="fa fa-twitter"></span>
             </a>
-            <a href="https://www.linkedin.com/in/start-Dropship/">
+            <a href="https://www.linkedin.com/in/vimal-verma/">
               <span className="fa fa-linkedin"></span>
             </a>
-            <a href="mailto:support@Vimal.us">
+            <a href="mailto:me@Vimalverma.in">
               <span className="fa fa-envelope"></span>
             </a>
           </div>

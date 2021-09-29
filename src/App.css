@@ -35,7 +35,7 @@ html {
 }
 
 .home > div > h1 {
-  color: #075353;
+  color: #e6a121;
   font-size: 41px;
   line-height: 61px;
   font-weight: 600;
@@ -366,7 +366,7 @@ textarea {
 
 .review {
   text-align: start;
-  background-color: #075353;
+  background-color: #e6a121;
   color: white;
 }
 
@@ -455,7 +455,7 @@ textarea {
 }
 
 .dasnav button {
-  color: #075353;
+  color: #e6a121;
 }
 
 .dasnav {
@@ -515,7 +515,7 @@ textarea {
 }
 
 .product-detail > h3 {
-  color: #09736c;
+  color: #e9a718;
 }
 
 .product-detail button {
@@ -562,7 +562,7 @@ textarea {
 }
 
 .card {
-  background-color: #075353;
+  background-color: #e6a121;
   margin: 0;
   z-index: 6;
   padding: 0;
@@ -645,14 +645,14 @@ button.x {
   position: absolute;
   width: 20px;
   height: 20px;
-  background-color: #075353;
+  background-color: #e6a121;
   content: '';
   left: -9px;
   border-radius: 50%;
 }
 
 .content span {
-  color: #075353;
+  color: #e6a121;
   font-weight: lighter;
   font-size: smaller;
 }
@@ -834,7 +834,7 @@ button.x {
 }
 
 .blogright h2 {
-  color: #075353;
+  color: #e6a121;
   margin-bottom: 2%;
 }
 
@@ -977,7 +977,7 @@ tr:nth-child(even) {
 }
 
 .column-btn button {
-  background: #075353;
+  background: #e6a121;
   color: white;
   font-size: 18px;
   padding-bottom: 3%;
@@ -1041,7 +1041,7 @@ label {
 
 .row input[type='submit'] {
   width: 52%;
-  background-color: #075353;
+  background-color: #e6a121;
   color: white;
   padding: 12px;
   border: none;
@@ -1092,7 +1092,7 @@ label {
 .contact-container h1 {
   margin-bottom: 3%;
   display: inline-block;
-  border-bottom: 2px solid #075353;
+  border-bottom: 2px solid #e6a121;
 }
 
 .contact-container span {
@@ -1105,7 +1105,7 @@ label {
 }
 
 .contact-container a:hover {
-  color: #075353;
+  color: #e6a121;
 }
 
 .contact-container li {
@@ -1117,7 +1117,7 @@ label {
 }
 
 .contact-heading {
-  color: #075353;
+  color: #e6a121;
 }
 
 .contact-row {

@@ -111,29 +111,29 @@ export default function Developer() {
             <div className="our-team">
               <div className="pic">
                 <img
-                  src="https://avatars.githubusercontent.com/u/47490316?v=4"
+                  src="https://avatars.githubusercontent.com/u/56020385?v=4"
                   alt="developer expert"
                 />
                 <div className="social">
-                  <a href="https://github.com/imPGupta">
+                  <a href="https://github.com/Abhishekkr93">
                     <span
                       style={{ padding: '5px', fontSize: '25px' }}
                       className="fa fa-github"
                     ></span>
                   </a>
-                  <a href="https://twitter.com/imPGupta_">
+                  <a href="https://twitter.com/amazing__ak">
                     <span
                       style={{ padding: '5px', fontSize: '25px' }}
                       className="fa fa-twitter"
                     ></span>
                   </a>
-                  <a href="https://www.linkedin.com/in/imPGupta">
+                  <a href="https://www.linkedin.com/in/abhishek-kumar-7052">
                     <span
                       style={{ padding: '5px', fontSize: '25px' }}
                       className="fa fa-linkedin"
                     ></span>
                   </a>
-                  <a href="mailto:prashantkgupta17@gmail.com">
+                  <a href="mailto:support@Vimal.us">
                     <span
                       style={{ padding: '5px', fontSize: '25px' }}
                       className="fa fa-envelope"
@@ -143,7 +143,7 @@ export default function Developer() {
               </div>
               <div className="team-content">
                 <div className="team-info">
-                  <h3 className="title"> Prashant Kumar Gupta</h3>
+                  <h3 className="title">Abhishek Kumar</h3>
                   <span className="post">Frontend Developer</span>
                 </div>
               </div>
@@ -153,29 +153,29 @@ export default function Developer() {
             <div className="our-team">
               <div className="pic">
                 <img
-                  src="https://avatars.githubusercontent.com/u/63895602?v=4"
+                  src="https://avatars.githubusercontent.com/u/56020385?v=4"
                   alt="developer expert"
                 />
                 <div className="social">
-                  <a href="https://github.com/ishangoyal13">
+                  <a href="https://github.com/Abhishekkr93">
                     <span
                       style={{ padding: '5px', fontSize: '25px' }}
                       className="fa fa-github"
                     ></span>
                   </a>
-                  <a href="https://twitter.com/imPGupta_">
+                  <a href="https://twitter.com/amazing__ak">
                     <span
                       style={{ padding: '5px', fontSize: '25px' }}
                       className="fa fa-twitter"
                     ></span>
                   </a>
-                  <a href="https://www.linkedin.com/in/imPGupta">
+                  <a href="https://www.linkedin.com/in/abhishek-kumar-7052">
                     <span
                       style={{ padding: '5px', fontSize: '25px' }}
                       className="fa fa-linkedin"
                     ></span>
                   </a>
-                  <a href="mailto:prashantkgupta17@gmail.com">
+                  <a href="mailto:support@Vimal.us">
                     <span
                       style={{ padding: '5px', fontSize: '25px' }}
                       className="fa fa-envelope"
@@ -185,7 +185,7 @@ export default function Developer() {
               </div>
               <div className="team-content">
                 <div className="team-info">
-                  <h3 className="title"> Ishan Goyal </h3>
+                  <h3 className="title">Abhishek Kumar</h3>
                   <span className="post">Frontend Developer</span>
                 </div>
               </div>

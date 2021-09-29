@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import AOS from 'aos'
-// import Lottie from '../utils/lottie';
-// import developer from '../assets/homepage.json';
+import Lottie from '../utils/lottie';
+import developer from '../assets/developer.json';
 
 export default function Welcome({ title, description, button, video }) {
   useEffect(() => {
@@ -17,13 +17,9 @@ export default function Welcome({ title, description, button, video }) {
         data-aos-duration="750"
         className="left"
       >
-        <h1 style={{ fontSize: '3em' }}>
-          {title ? title : 'Revive Your Developer Career. With Confidence.'}
-        </h1>
+        <h1 style={{ fontSize: '3em' }}>support jharkhand tribal art and culture </h1>
         <p>
-          {description
-            ? description
-            : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."}
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
         </p>
         <Link to="/product">
           <div className="slide-button">
@@ -36,14 +32,7 @@ export default function Welcome({ title, description, button, video }) {
         </Link>
       </div>
       <div data-aos="zoom-in-up" className="right">
-        <div className="ratio ratio-16x9">
-          <iframe
-            className="responsive-iframe"
-            src={video ? video : 'https://www.youtube.com/embed/xcJtL7QggTI'}
-            title="YouTube video"
-            allowfullscreen
-          ></iframe>
-        </div>
+        <Lottie animationData={developer} />
       </div>
     </div>
   )
