@@ -4,7 +4,6 @@ import Nav from '../components/Nav'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import Footer from '../components/Footer'
-import bg2 from '../assets/bg2.svg'
 import textture from '../assets/texture.png'
 import ReactTooltip from 'react-tooltip'
 // import Card from '../utils/Card'
@@ -111,41 +110,14 @@ export default function Home() {
         </button>
       </Link>
 
-      {/* Get Ready */}
+      {/* reviews container */}
       <div
-        className="boxes"
+        className="reviews-container"
         style={{
           backgroundColor: '#3b4354',
           backgroundImage: `url(${textture})`,
           backgroundAttachment: 'fixed',
         }}
-      >
-        <div
-          data-aos="fade-up-right"
-          style={{
-            color: 'wheat',
-            minHeight: '400px',
-            display: 'flex',
-            alignItems: 'center',
-            fontSize: '2em',
-            flexDirection: 'column',
-          }}
-        >
-          <h1>ORDER YOUR PRODUCTS AND BE A HOPE</h1>
-          <Link to="/product">
-            <div className="slide-button">
-              <button>
-                ORDER YOUR PRODUCTS AND BE A HOPE <i class="fas fa-arrow-right"></i>{' '}
-              </button>
-            </div>
-          </Link>
-        </div>
-      </div>
-
-      {/* reviews container */}
-      <div
-        className="reviews-container"
-        style={{ backgroundImage: `url(${bg2})` }}
       >
         <h1 data-aos="zoom-in-up">Some Review</h1>
         <div className="boxes reviews wave2">

@@ -86,7 +86,7 @@
 }
 
 .header .menu-icon .navicon {
-  background: #0d4b49;
+  background: #e9a718;
   display: block;
   height: 2px;
   position: relative;
@@ -96,7 +96,7 @@
 
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
-  background: #0d4b49;
+  background: #e9a718;
   content: '';
   display: block;
   height: 100%;
@@ -437,7 +437,7 @@ button {
 
 .dropbtn:hover {
   /*background-color: aliceblue;
-    color: #0d4b49;*/
+    color: #e9a718;*/
   opacity: 0.6;
 }
 
