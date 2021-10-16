@@ -44,6 +44,8 @@ import Orders from './page/Orders'
 import Receipt from './page/Receipt'
 import Portfolio from './page/Portfolio'
 import SinglePortfolio from './page/SinglePortfolio'
+import AdminRoute from './utils/AdminRoute'
+import PrivateRoute from './utils/PrivateRoute'
 
 function App() {
   axios.defaults.baseURL = process.env.REACT_APP_API_URL
@@ -64,25 +66,25 @@ function App() {
             <Route path="/register" component={Register}></Route>
             <Route path="/login" component={Login}></Route>
             <Route path="/logout" component={logout}></Route>
-            <Route path="/changepassword" component={Changepassword}></Route>
+            <PrivateRoute path="/changepassword" component={Changepassword}></PrivateRoute>
             <Route path="/contact" component={Contact}></Route>
-            <Route path="/dashboard" component={Dashboard}></Route>
+            <PrivateRoute path="/dashboard" component={Dashboard}></PrivateRoute>
             <Route path="/developer" component={Developer}></Route>
-            <Route path="/admin" component={Admin}></Route>
-            <Route path="/image" component={Image}></Route>
-            <Route path="/Manage_blog" component={Manageblog}></Route>
-            <Route path="/Manage_Products" component={Manageproduct}></Route>
-            <Route path="/Manage_admin" component={Manageadmin}></Route>
-            <Route path="/Manage_page" component={ManagePage}></Route>
-            <Route path="/add_blog" component={Addblog}></Route>
-            <Route path="/Add_Product" component={Addproduct}></Route>
-            <Route path="/add_page" component={AddPage}></Route>
-            <Route path="/edit_blog/:url" component={Editblog}></Route>
-            <Route path="/edit_product/:url" component={EditProduct}></Route>
-            <Route path="/edit_page/:url" component={EditPage}></Route>
-            <Route path="/message" component={Message}></Route>
-            <Route path="/order" component={Order}></Route>
-            <Route path="/orders" component={Orders}></Route>
+            <AdminRoute path="/admin" component={Admin}></AdminRoute>
+            <AdminRoute path="/image" component={Image}></AdminRoute>
+            <AdminRoute path="/Manage_blog" component={Manageblog}></AdminRoute>
+            <AdminRoute path="/Manage_Products" component={Manageproduct}></AdminRoute>
+            <AdminRoute path="/Manage_admin" component={Manageadmin}></AdminRoute>
+            <AdminRoute path="/Manage_page" component={ManagePage}></AdminRoute>
+            <AdminRoute path="/add_blog" component={Addblog}></AdminRoute>
+            <AdminRoute path="/Add_Product" component={Addproduct}></AdminRoute>
+            <AdminRoute path="/add_page" component={AddPage}></AdminRoute>
+            <AdminRoute path="/edit_blog/:url" component={Editblog}></AdminRoute>
+            <AdminRoute path="/edit_product/:url" component={EditProduct}></AdminRoute>
+            <AdminRoute path="/edit_page/:url" component={EditPage}></AdminRoute>
+            <AdminRoute path="/message" component={Message}></AdminRoute>
+            <PrivateRoute path="/order" component={Order}></PrivateRoute>
+            <AdminRoute path="/orders" component={Orders}></AdminRoute>
             <Route path="/cart" component={Cart}></Route>
             <Route exact path="/blog" component={Blog}></Route>
             <Route path="/blog/:id" component={Singleblog}></Route>

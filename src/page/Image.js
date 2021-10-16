@@ -5,18 +5,9 @@ import Lottie from '../utils/lottie'
 import developer from '../assets/groth.json'
 import 'react-notifications/lib/notifications.css'
 import axios from 'axios'
-import jwt_decode from 'jwt-decode'
 import { NotificationContainer, NotificationManager } from 'react-notifications'
 
 export default function Image() {
-  var token = localStorage.getItem('token')
-  if (token) {
-    var decoded = jwt_decode(token)
-    // console.log(decoded)
-  }
-  if (decoded.user.email !== process.env.REACT_APP_ADMIN) {
-    window.location.pathname = '/dashboard'
-  }
 
   const [Image, setImage] = useState('Choose File')
   const [ImageUrl, setImageUrl] = useState('Choose File')

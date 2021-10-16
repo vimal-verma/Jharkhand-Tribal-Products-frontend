@@ -40,35 +40,16 @@ export default function Nav() {
               </button>
               <div class="dropdown-content">
                 <NavLink to="/Developer" tag={Link}>
-                  <span>Developer</span>
-                  <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry.
-                  </p>
+                  Developer
                 </NavLink>
-                <hr />
                 <NavLink to="/blog" tag={Link}>
-                  <span>Blog</span>
-                  <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry.
-                  </p>
+                  Blog
                 </NavLink>
-                <hr />
                 <NavLink to="/about" tag={Link}>
-                  <span>About us</span>
-                  <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry.
-                  </p>
+                  About
                 </NavLink>
-                <hr />
                 <NavLink to="/Dashboard" tag={Link}>
-                  <span>Dashboard</span>
-                  <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry.
-                  </p>
+                  Dashboard
                 </NavLink>
               </div>
             </div>

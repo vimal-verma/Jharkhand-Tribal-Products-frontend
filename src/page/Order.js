@@ -1,18 +1,10 @@
 import Nav from '../components/Usernav'
-import jwt_decode from 'jwt-decode'
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 
 export default function Order() {
   var token = localStorage.getItem('token')
-  if (token) {
-    var decoded = jwt_decode(token)
-    // console.log(decoded)
-  }
-  if (!decoded) {
-    window.location.pathname = '/register'
-  }
 
   const [Order, setOrder] = useState([])
 

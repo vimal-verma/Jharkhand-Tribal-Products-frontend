@@ -11,9 +11,7 @@ export default function Message() {
     var decoded = jwt_decode(token)
     // console.log(decoded)
   }
-  if (decoded.user.email !== process.env.REACT_APP_ADMIN) {
-    window.location.pathname = '/dashboard'
-  }
+
   return (
     <div>
       <Nav />

@@ -1,18 +1,10 @@
 import Nav from '../components/Dasnav'
-import jwt_decode from 'jwt-decode'
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 
 export default function Orders() {
   var token = localStorage.getItem('token')
-  if (token) {
-    var decoded = jwt_decode(token)
-    // console.log(decoded)
-  }
-  if (decoded.user.email !== process.env.REACT_APP_ADMIN) {
-    window.location.pathname = '/order'
-  }
 
   const [Order, setOrder] = useState([])
 

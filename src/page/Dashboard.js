@@ -11,9 +11,6 @@ export default function Dashboard() {
     var decoded = jwt_decode(token)
     // console.log(decoded)
   }
-  if (!decoded) {
-    window.location.pathname = '/register'
-  }
   return (
     <div>
       <Nav />

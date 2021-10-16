@@ -1,19 +1,11 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 import { Link } from 'react-router-dom'
-import jwt_decode from 'jwt-decode'
 import Dasnav from '../components/Dasnav'
 import Footer from '../components/Footer'
 
 export default function ManageProducts() {
   var token = localStorage.getItem('token')
-  if (token) {
-    var decoded = jwt_decode(token)
-    // console.log(decoded)
-  }
-  if (decoded.user.email !== process.env.REACT_APP_ADMIN) {
-    window.location.pathname = '/dashboard'
-  }
 
   const [Product, setProduct] = useState([])
 

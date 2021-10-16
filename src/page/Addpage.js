@@ -4,7 +4,6 @@ import Lottie from '../utils/lottie'
 import developer from '../assets/groth.json'
 import 'react-notifications/lib/notifications.css'
 import axios from 'axios'
-import jwt_decode from 'jwt-decode'
 import { NotificationContainer, NotificationManager } from 'react-notifications'
 import { CKEditor } from '@ckeditor/ckeditor5-react'
 import ClassicEditor from '@ckeditor/ckeditor5-build-classic'
@@ -12,13 +11,7 @@ import { useState } from 'react'
 
 export default function AddPage() {
   var token = localStorage.getItem('token')
-  if (token) {
-    var decoded = jwt_decode(token)
-    // console.log(decoded)
-  }
-  if (decoded.user.email !== process.env.REACT_APP_ADMIN) {
-    window.location.pathname = '/dashboard'
-  }
+
 
   const [Page, setPage] = useState({})
 

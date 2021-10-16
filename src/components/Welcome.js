@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import AOS from 'aos'
 import Lottie from '../utils/lottie';
-import developer from '../assets/developer.json';
+import developer from '../assets/groth.json';
 
 export default function Welcome({ title, description, button, video }) {
   useEffect(() => {
