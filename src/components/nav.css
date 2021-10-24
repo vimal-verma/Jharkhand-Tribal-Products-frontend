@@ -180,37 +180,6 @@
   position: relative;
   overflow: hidden;
 }
-
-@keyframes moveAfter {
-  to {
-    transform: rotate(60deg) translate(0em, -5em);
-  }
-}
-
-.cart-button:after {
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
-  animation-name: moveAfter;
-  animation-timing-function: linear;
-  background: linear-gradient(
-    180deg,
-    rgba(229, 172, 142, 0),
-    hsla(0, 0%, 100%, 0.5) 50%,
-    rgba(229, 172, 142, 0)
-  );
-  bottom: -50%;
-  content: '';
-  left: -50%;
-  position: absolute;
-  right: -50%;
-  top: -50%;
-  transform: rotate(60deg) translate(-5em, 7.5em);
-}
-
-.cart-button:hover {
-  background-color: rgba(236, 37, 37, 0.815);
-}
-
 /*   end     */
 
 /* 48em = 768px */
@@ -327,14 +296,6 @@ h2 {
   background: #888;
   border-radius: 10px;
 }
-
-/* Handle on hover */
-
-::-webkit-scrollbar-thumb:hover {
-  background: #b30000;
-}
-/* end */
-/* media query */
 
 @media (max-width: 767px) {
   .dropdown-content hr {

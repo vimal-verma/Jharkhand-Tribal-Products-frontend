@@ -69,7 +69,7 @@ export default function Developer() {
             <div className="our-team">
               <div className="pic">
                 <img
-                  src="https://avatars.githubusercontent.com/u/56020385?v=4"
+                  src="https://avatars.githubusercontent.com/u/64608676?v=4"
                   alt="developer expert"
                 />
                 <div className="social">
@@ -101,8 +101,8 @@ export default function Developer() {
               </div>
               <div className="team-content">
                 <div className="team-info">
-                  <h3 className="title">Abhishek Kumar</h3>
-                  <span className="post">Frontend Developer</span>
+                  <h3 className="title">Akash Anand</h3>
+                  <span className="post">Backend Developer</span>
                 </div>
               </div>
             </div>
@@ -185,7 +185,7 @@ export default function Developer() {
               </div>
               <div className="team-content">
                 <div className="team-info">
-                  <h3 className="title">Abhishek Kumar</h3>
+                  <h3 className="title">Kavita Yadav</h3>
                   <span className="post">Frontend Developer</span>
                 </div>
               </div>
