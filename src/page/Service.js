@@ -5,9 +5,7 @@ import axios from 'axios'
 import ReactHtmlParser from 'react-html-parser'
 import Nofound from './Nofound'
 import Welcome from '../components/Welcome'
-import Contact from '../components/Contact'
 import '../components/editor.css'
-import Quotation from '../components/Quotation'
 
 export default function Service({ match }) {
   const id = match.params.page
@@ -55,8 +53,6 @@ export default function Service({ match }) {
               <img src={Page.imgurl} alt={Page.title} width="100%" />
             </div>
           </div>
-          <Quotation />
-          <Contact />
           <Footer />
         </div>
       )}

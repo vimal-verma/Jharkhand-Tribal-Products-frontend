@@ -60,7 +60,7 @@ export default function Login() {
             <button type="submit">Login</button>
           </form>
           <Link to="/resetpassword">Forget Password</Link>
-          <Link to="/register">New to Start-DropShip? Join now</Link>
+          <Link to="/register">New to jharkhand tribal shop? Join now</Link>
         </div>
         <div style={{ height: '500px' }} className="right">
           <Lottie animationData={developer} />

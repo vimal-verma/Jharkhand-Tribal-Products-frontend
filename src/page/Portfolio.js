@@ -3,7 +3,6 @@ import Nav from '../components/Nav'
 import Footer from '../components/Footer'
 import axios from 'axios'
 import { Link } from 'react-router-dom'
-import Contact from '../components/Contact'
 
 export default function Portfolio() {
   const [Page, setPage] = useState([])
@@ -37,7 +36,6 @@ export default function Portfolio() {
           )
         })}
       </div>
-      <Contact />
       <Footer />
     </div>
   )

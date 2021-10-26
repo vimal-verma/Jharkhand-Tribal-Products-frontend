@@ -5,8 +5,7 @@ import axios from 'axios'
 import { Link } from 'react-router-dom'
 import ReactHtmlParser from 'react-html-parser'
 import '../components/editor.css'
-import Quotation from '../components/Quotation'
-import Contact from '../components/Contact'
+
 
 export default function Singleproduct({ match }) {
   const id = match.params.id
@@ -105,8 +104,6 @@ export default function Singleproduct({ match }) {
           </div>
         </div>
       </div>
-      <Quotation />
-      <Contact />
       <Footer />
     </div>
   )

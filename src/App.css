@@ -715,8 +715,8 @@ button.x {
 
 .bloghome:hover {
   box-shadow: 0 5px 15px rgba(165, 165, 165, 0.8);
-  background-color: rgb(248, 248, 248);
-  transform: scale(1.1);
+  transform: scale(1.05);
+  transition-duration: 0.7s;
 }
 
 @media (max-width: 768px) {

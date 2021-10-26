@@ -67,7 +67,7 @@ export default function Register() {
             />
             <button type="submit">Register</button>
           </form>
-          <Link to="/login">Already on Start-DropShip? Sign in</Link>
+          <Link to="/login">Already on jharkhand tribal shop? Sign in</Link>
         </div>
         <div style={{ height: '500px' }} className="right">
           <Lottie animationData={developer} />

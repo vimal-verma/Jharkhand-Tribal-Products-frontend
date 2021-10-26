@@ -52,7 +52,7 @@ export default function Resetpassword() {
             />
             <button type="submit">Request reset url</button>
           </form>
-          <Link to="/register">New to Start-DropShip? Join now</Link>
+          <Link to="/register">New to jharkhand tribal shop? Join now</Link>
         </div>
         <div style={{ height: '500px' }} className="right">
           <Lottie animationData={developer} />
