@@ -38,10 +38,12 @@ The project is to develop a custom website where Jharkhand Tribal products can b
 - [ ] Coupon Management
 - [ ] Admin Management
 
-### Team
+### Team:
 
 - Vimal Kumar (FullStack Developer)
 - Akash Anand (Backend Developer)
 - Kavita Yadav (Frontend Developer)
 - Abhishek Kumar (Frontend Developer)
+
+# Thank You!
 
