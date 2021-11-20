@@ -2,7 +2,12 @@
 
 ![logo](https://raw.githubusercontent.com/vimal-verma/Jharkhand-Tribal-Products-frontend/master/src/assets/logo2.png?token=ALCVPNBN6QOAQ5E6RRIHN7TBP3EYW)
 
-project build under IIIT Ranchi for the Jharkhand Tribal with the aim of providing a platform to sell their products.
+Project build under IIIT Ranchi for the Jharkhand Tribal with the aim of providing a platform to sell their products.
+
+## Proposal to design Ecommerce Solution for Jharkhand Tribal Products.
+
+## Project Scope: 
+The project is to develop a custom website where Jharkhand Tribal products can be sold online. Administrator, in this case client will be responsible for managing the product details and the users, in this case customers from the web based backend panel. The development has to be from scratch with development of backend and front end as well as an admin website for controlling and operating the website. The development has to be scalable for an increase in the number of users.
 
 ### Users Functionalities
 
