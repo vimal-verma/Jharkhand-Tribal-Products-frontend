@@ -35,8 +35,8 @@ project build under IIIT Ranchi for the Jharkhand Tribal with the aim of providi
 
 ### Team
 
-Vimal Kumar (FullStack Developer)
-Akash Anand (Backend Developer)
-Kavita Yadav (Frontend Developer)
-Abhishek Kumar (Frontend Developer)
+- Vimal Kumar (FullStack Developer)
+- Akash Anand (Backend Developer)
+- Kavita Yadav (Frontend Developer)
+- Abhishek Kumar (Frontend Developer)
 
