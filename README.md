@@ -32,3 +32,11 @@ project build under IIIT Ranchi for the Jharkhand Tribal with the aim of providi
 - [x] User Management
 - [ ] Coupon Management
 - [ ] Admin Management
+
+### Team
+
+Vimal Kumar (FullStack Developer)
+Akash Anand (Backend Developer)
+Kavita Yadav (Frontend Developer)
+Abhishek Kumar (Frontend Developer)
+
