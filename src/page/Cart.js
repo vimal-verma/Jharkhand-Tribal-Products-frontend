@@ -1,8 +1,11 @@
 import React, { useEffect, useState } from 'react'
+
 import Nav from '../components/Usernav'
 import PayPal from '../components/Paypal'
 import { Link } from 'react-router-dom'
 import axios from 'axios'
+import Coupan from "./Coupan";
+
 
 export default function Cart() {
   const [Cart, setCart] = useState([])
@@ -51,12 +54,14 @@ export default function Cart() {
     }
   }
 
+
   return (
     <div>
       <Nav />
       <div className="dashome">
         <div className="dashleft">
           <h2>Your Cart</h2>
+          <Coupan />
           <div class="products">
             {Cart.map(item => {
               return (
@@ -83,6 +88,12 @@ export default function Cart() {
             {Cart.length < 1 && (
               <div>
                 <h1>Your cart is empaty</h1>
+
+                <div>
+                
+               
+
+                </div>
               </div>
             )}
           </div>
@@ -92,5 +103,9 @@ export default function Cart() {
         </div>
       </div>
     </div>
+
+   
+    
   )
+
 }
