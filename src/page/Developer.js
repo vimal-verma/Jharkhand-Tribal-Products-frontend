@@ -153,23 +153,23 @@ export default function Developer() {
             <div className="our-team">
               <div className="pic">
                 <img
-                  src="https://avatars.githubusercontent.com/u/56020385?v=4"
+                  src="https://avatars.githubusercontent.com/u/56086999?v=4"
                   alt="developer expert"
                 />
                 <div className="social">
-                  <a href="https://github.com/Abhishekkr93">
+                  <a href="https://github.com/kavita1403">
                     <span
                       style={{ padding: '5px', fontSize: '25px' }}
                       className="fa fa-github"
                     ></span>
                   </a>
-                  <a href="https://twitter.com/amazing__ak">
+                  <a href="https://twitter.com/Kavita26626408s">
                     <span
                       style={{ padding: '5px', fontSize: '25px' }}
                       className="fa fa-twitter"
                     ></span>
                   </a>
-                  <a href="https://www.linkedin.com/in/abhishek-kumar-7052">
+                  <a href="https://www.linkedin.com/in/kavita-yadav-05a363188/">
                     <span
                       style={{ padding: '5px', fontSize: '25px' }}
                       className="fa fa-linkedin"
