@@ -46,6 +46,7 @@ import Portfolio from './page/Portfolio'
 import SinglePortfolio from './page/SinglePortfolio'
 import AdminRoute from './utils/AdminRoute'
 import PrivateRoute from './utils/PrivateRoute'
+import Statistics from './page/Statistics'
 
 function App() {
   axios.defaults.baseURL = process.env.REACT_APP_API_URL
@@ -83,6 +84,7 @@ function App() {
             <AdminRoute path="/edit_product/:url" component={EditProduct}></AdminRoute>
             <AdminRoute path="/edit_page/:url" component={EditPage}></AdminRoute>
             <AdminRoute path="/message" component={Message}></AdminRoute>
+            <AdminRoute path="/statistics" component={Statistics}></AdminRoute>
             <PrivateRoute path="/order" component={Order}></PrivateRoute>
             <AdminRoute path="/orders" component={Orders}></AdminRoute>
             <Route path="/cart" component={Cart}></Route>

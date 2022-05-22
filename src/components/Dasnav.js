@@ -20,6 +20,15 @@ export default function Dasnav() {
           </button>
         </NavLink>
         <NavLink
+          to="/statistics"
+          activeStyle={{ borderBottom: '3px solid #0d3895' }}
+        >
+          <button data-tip="statistics Overview" data-delay-show="400">
+            {' '}
+            Statistics{' '}
+          </button>
+        </NavLink>
+        <NavLink
           to="/orders"
           activeStyle={{ borderBottom: '3px solid #0d3895' }}
         >

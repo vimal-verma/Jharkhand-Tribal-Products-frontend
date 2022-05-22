@@ -19,7 +19,7 @@ export default function Welcome({ title, description, button, video }) {
       >
         <h1 style={{ fontSize: '3em' }}>support jharkhand tribal art and culture </h1>
         <p>
-          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+          "Project build under IIIT Ranchi Students for the Jharkhand Tribal Groups with the aim of providing a platform to sell their products."
         </p>
         <Link to="/product">
           <div className="slide-button">

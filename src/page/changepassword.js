@@ -49,8 +49,7 @@ export default function Changepassword() {
       <div className="home">
         <div className="left">
           <h1>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry.
+            Change Password
           </h1>
           <form onSubmit={handleSubmit}>
             <input

@@ -38,8 +38,7 @@ export default function Resetpassword() {
       <div className="home">
         <div className="left">
           <h1>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry.
+            Reset Password
           </h1>
           <form onSubmit={handleSubmit}>
             <input

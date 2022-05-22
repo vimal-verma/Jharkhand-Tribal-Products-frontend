@@ -37,8 +37,7 @@ export default function Register() {
       <div className="home">
         <div className="left">
           <h1>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry.
+            User Register
           </h1>
           <form onSubmit={handleSubmit}>
             <input

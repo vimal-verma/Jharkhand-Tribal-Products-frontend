@@ -11,15 +11,7 @@ export default function Developer() {
         <div className="welcome-background">
           <h1>Our Developers</h1>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum.
+            The project is to develop a custom website where Jharkhand Tribal products can be sold online. Administrator, in this case client will be responsible for managing the product details and the users, in this case customers from the web based backend panel. The development has to be from scratch with development of backend and front end as well as an admin website for controlling and operating the website. The development has to be scalable for an increase in the number of users.
           </p>
         </div>
         <div className="developer-card">
@@ -102,7 +94,7 @@ export default function Developer() {
               <div className="team-content">
                 <div className="team-info">
                   <h3 className="title">Akash Anand</h3>
-                  <span className="post">Backend Developer</span>
+                  <span className="post">Full Stack Developer</span>
                 </div>
               </div>
             </div>

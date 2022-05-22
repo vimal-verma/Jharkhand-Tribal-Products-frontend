@@ -15,14 +15,10 @@ export default function About() {
       <div className="home">
         <div className="left">
           <h1>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s
+            Project build under IIIT Ranchi Students for the Jharkhand Tribal Groups with the aim of providing a platform to sell their products.
           </h1>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s
+            The project is to develop a custom website where Jharkhand Tribal products can be sold online. Administrator, in this case client will be responsible for managing the product details and the users, in this case customers from the web based backend panel. The development has to be from scratch with development of backend and front end as well as an admin website for controlling and operating the website. The development has to be scalable for an increase in the number of users.
           </p>
           <Link to="/product">
             <button>
@@ -43,13 +39,11 @@ export default function About() {
       </div>
       <div style={{ padding: '40px' }} className="demo">
         <div className="demoleft">
-          <h1>hjhj</h1>
+          <h1>About Us</h1>
         </div>
         <div className="demoright">
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s
+            The project is to develop a custom website where Jharkhand Tribal products can be sold online. Administrator, in this case client will be responsible for managing the product details and the users, in this case customers from the web based backend panel. The development has to be from scratch with development of backend and front end as well as an admin website for controlling and operating the website. The development has to be scalable for an increase in the number of users.
           </p>
         </div>
         <Link to="/developer">

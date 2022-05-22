@@ -28,7 +28,7 @@ export default function Home() {
       <Welcome />
 
 
-      <h1 data-aos="zoom-in-up">Why Vdev.in ?</h1>
+      <h1 data-aos="zoom-in-up">Why Us ?</h1>
       <p data-aos="zoom-in-up">Our Dashboard is built on top of being user friendly. It will help you to customizable your website.</p>
       <div className="boxes why">
         <div data-aos="fade-up-right" className="box">
