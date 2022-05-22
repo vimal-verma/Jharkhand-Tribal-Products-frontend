@@ -9,18 +9,16 @@ import axios from 'axios'
 import {
     Chart as ChartJS, ArcElement, Tooltip, Legend, CategoryScale,
     LinearScale,
-    PointElement,
-    LineElement,
+    BarElement,
     Title,
 } from 'chart.js';
-import { Pie, Line } from 'react-chartjs-2';
+import { Pie, Bar } from 'react-chartjs-2';
 
 ChartJS.register(ArcElement, Tooltip, Legend);
 ChartJS.register(
     CategoryScale,
     LinearScale,
-    PointElement,
-    LineElement,
+    BarElement,
     Title,
     Tooltip,
     Legend
@@ -125,21 +123,17 @@ export default function Statistics() {
         ],
     };
 
+    const labels = ppdate
+
     const linedata = {
-        ppdate,
+        labels,
         datasets: [
             {
-                label: 'Dataset 1',
+                label: 'Number of Orders',
                 data: ppcount,
                 borderColor: 'rgb(255, 99, 132)',
                 backgroundColor: 'rgba(255, 99, 132, 0.5)',
-            },
-            {
-                label: 'Dataset 2',
-                data: ppcount,
-                borderColor: 'rgb(53, 162, 235)',
-                backgroundColor: 'rgba(53, 162, 235, 0.5)',
-            },
+            }
         ],
     };
 
@@ -154,7 +148,7 @@ export default function Statistics() {
                     <div style={{ width: '500px' }}>
                         <Pie data={data} />
                     </div>
-                    <Line data={linedata} />
+                    <Bar data={linedata} />
                 </div>
                 <div className="dashright">
                     <Lottie animationData={developer} />
